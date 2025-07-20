@@ -1,2 +1,1 @@
-Here are Some JavaScript Projects.
-Something.
+# Here are Some JavaScript Projects

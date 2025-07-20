@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Site Index</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 2rem;
+            background: #543f66;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 2rem;
+            color: white;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1.5rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .grid a {
+            display: block;
+            padding: 1.2rem;
+            background: #6a62ef;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+            text-decoration: none;
+            text-align: center;
+            font-weight: bold;
+            color: white;
+            transition: all 0.2s ease;
+        }
+
+        .grid a:hover {
+            background: #007acc;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Welcome to JavaScript project gallery</h1>
+
+    <div class="grid">
+        <a href="1.countdown Timer/">countdown Timer</a>
+        <a href="2.Random Color Generation/">Random Color Generation</a>
+        <a href="3.Notes Taking App/">Notes Taking App</a>
+        <a href="4.Password Generator/">Password Generator</a>
+        <a href="5.Quiz App JavaScript/">Quiz App JavaScript</a>
+    </div>
+
+</body>
+
+</html>
